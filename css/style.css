@@ -1,6 +1,6 @@
 body
 {
-	background-image: url('/home/violetta/Pulpit/Strona_www/img/background_image.png');
+	background-image: url('/img/background_image.png');
 	background-color: #cccccc;
 	background-size: 100% 100%;
 	background-size: cover;
@@ -480,7 +480,7 @@ legend{
 
 .obrazkoweTlo{
 
-	background: url('/home/violetta/Pulpit/Strona_www/img/owoce.png');
+	background: url('/img/owoce.png');
 	opacity 0.1;
 	width:100%;
 	/*background-size: cover;*/
