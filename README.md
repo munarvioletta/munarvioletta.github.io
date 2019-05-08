@@ -1,1 +1,1 @@
-# /munarvioletta.github.io/index.html
+# munarvioletta.github.io/index.html
