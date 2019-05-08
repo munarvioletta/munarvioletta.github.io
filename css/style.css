@@ -207,32 +207,34 @@ header{
 	float: left; 
 	width: 20%; 
 	height: 500px; 
-	/*background-color: red; */
-	display: block;
+	background-color: red; */
+	display: inline-block;
 }
 
 .main{
 
 
+	
+	float: left;
 	margin-top: 30px;
 	margin-bottom: 40px;
 	text-align: center;
 	width: 60%;
 	height:70%;
-	display: inline-block;
+	display: block;
 	/*background-color: blue;*/
-	float: left;
+	
 
 }
 
 
-aside{
+/*aside{
 
 	float: left;
 	width: 20%;
 	margin-top: 30px;
 	
-}
+}*/
 
 
 h3{
@@ -260,11 +262,13 @@ h4{
 .navAside{
 
 	float: left;
-	width: 100%;
-	/*background-color: green;*/
+	display: block;
+	width: 20%;
+	background-color: green;*/
 	border-left: dotted; 
 	color:#3841f6;
-	height: 500px;
+	/*height: 500px;*/
+	
 }
 
 
@@ -420,7 +424,6 @@ h4{
 #listaP {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
-  width: 80%;
   display: inline-block;
 }
 
@@ -444,8 +447,8 @@ h4{
 th{
 
 
-padding-left: 20px;
-padding-right: 20px;
+padding-left: 15px;
+padding-right: 15px;
 
 }
 
