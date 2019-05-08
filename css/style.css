@@ -55,7 +55,7 @@ header{
 
 }
 
-
+@media only screen and (max-width: 768px){
 
 #topnav{
 
@@ -199,8 +199,11 @@ header{
 	color: white;
 	
 
+	}
+
 }
 
+@media only screen and (max-width: 576px){
 
 .rightNav{
 
@@ -209,8 +212,8 @@ header{
 	height: 500px; 
 	/*background-color: red; */
 	display: inline-block;
+ }
 }
-
 .main{
 
 
@@ -258,12 +261,13 @@ h4{
 	font-weight: 500; 
 }
 		
+@media only screen and (max-width: 576px){
 
 .navAside{
 
-	/*float: left;*/
-	/*display: block;*/
-	width: 20%;
+	float: left;
+	display: block;
+	width: 19%;
 	margin-top: 20px;
 	/*background-color: green;*/
 	border-left: dotted; 
@@ -272,6 +276,7 @@ h4{
 	
 }
 
+}
 
 
  ul > li{
