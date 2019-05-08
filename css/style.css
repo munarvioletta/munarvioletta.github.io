@@ -207,7 +207,7 @@ header{
 	float: left; 
 	width: 20%; 
 	height: 500px; 
-	background-color: red; */
+	/*background-color: red; */
 	display: inline-block;
 }
 
@@ -264,7 +264,7 @@ h4{
 	float: left;
 	display: block;
 	width: 20%;
-	background-color: green;*/
+	/*background-color: green;*/
 	border-left: dotted; 
 	color:#3841f6;
 	/*height: 500px;*/
