@@ -1,0 +1,493 @@
+body
+{
+	background-image: url('/home/violetta/Pulpit/Strona_www/img/background_image.png');
+	background-color: #cccccc;
+	background-size: 100% 100%;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+
+}
+
+header{
+
+		width: 100%;
+
+}
+
+.centered{
+
+	
+	height: 20%;
+
+	
+
+
+
+}
+
+.centered img{
+
+
+	width: 60px;
+	padding: 5px 10px 0px 0px;	
+	float: left;
+	margin-left: 40%;
+	display: inline;
+		
+}
+
+
+
+
+.logo{
+
+
+
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #3841f6;
+	margin-top: 2px;
+	font-size: 40px;
+	letter-spacing: 3px;	
+	float: left;
+	margin-bottom: 12px;
+	
+
+}
+
+
+
+#topnav{
+
+	width: 100%
+	height: 70px;
+	background-color: #cbcdfa;
+	text-align: center;
+	box-shadow: 0 0 40px 4px rgba(8,56,128,0.8);;
+
+
+}
+
+
+.obrazek img{
+
+	height: 500px;
+
+}
+
+.menu
+{
+	list-style-type: none;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+	min-height: 38px;
+	line-height: 200%;
+	display: inline-block;
+
+}
+
+.menu > li 
+{
+	display: inline-block;
+	/*border-right: solid 1px  #0a2b42;*/
+	font-family: 'Indie+Flower';
+	font-color:#3841f6;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	/*height: 100% */
+	font-size: 16px;
+	margin-bottom: 0;
+	margin-top: 0;
+	transition: transform 0.4s ease-in-out;
+	float: left;
+
+}
+
+.menu > li:hover
+{
+
+	background-color: #3841f6;
+	transform: scale(0.95);
+	cursor: pointer;
+}
+
+
+.menu > li:hover > ul
+{
+
+	display: block;
+
+}
+
+.menu > li:hover > a
+{
+	color: #e6e7f6;
+    margin: 0;
+    cursor: pointer;
+
+}
+
+.menu > li:first child{
+
+	/*border-left: 1px solid #0a2b42;*/
+}
+
+
+.menu a
+{
+	color: #fff;
+	text-decoration: none;
+
+
+		
+}
+
+
+.menu .current a {
+
+
+	color: #3841f6;
+	font-weight: 600;
+
+}
+
+
+.menu > li > ul{
+
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 0px;
+	width: 170px;
+	display: none;
+	transition: none;
+
+	
+	
+
+}
+
+
+.menu > li> ul > li{
+
+	background-color:  #cbcdfa;
+	
+	color: #616E78;
+	position: relative;
+	z-index: 100%;
+	border-top: 1px dashed  #616E78;
+	/*text-align: center;*/
+
+}
+
+.menu > li> ul > li:hover{
+
+
+	background-color:  #3841f6;
+	color: white;
+	cursor: pointer;
+	padding: 10px;
+
+}
+
+
+
+.menu > li> ul > li:hover > a{
+
+	color: white;
+	
+
+}
+
+
+.rightNav{
+
+	float: left; 
+	width: 20%; 
+	height: 500px; 
+	/*background-color: red; */
+	display: block;
+}
+
+.main{
+
+
+	margin-top: 30px;
+	margin-bottom: 40px;
+	text-align: center;
+	width: 60%;
+	height:70%;
+	display: inline-block;
+	/*background-color: blue;*/
+	float: left;
+
+}
+
+
+aside{
+
+	float: left;
+	width: 20%;
+	margin-top: 30px;
+	
+}
+
+
+h3{
+
+
+	font-size: 30px;
+	font-family: Akronim;
+	letter-spacing: 4px;	
+	color: #616E78;
+	text-align: center;
+	margin-top: 60px;	
+	margin-bottom: 10px;	
+}
+
+h4{
+
+	font-family: Indie+Flower; 
+	font-size: 20px; 	
+	margin-left: 20px;
+	margin-top: 0; 
+	font-weight: 500; 
+}
+		
+
+.navAside{
+
+	float: left;
+	width: 100%;
+	/*background-color: green;*/
+	border-left: dotted; 
+	color:#3841f6;
+	height: 500px;
+}
+
+
+
+ ul > li{
+
+	padding-bottom: 10px;
+	padding-top: 10px;
+
+	
+}
+
+
+
+ ul > li> a{
+
+ 	color: #836977;
+	text-decoration: none;
+
+
+
+}
+
+
+.footer{
+
+	margin-top:0; 
+	width:  100%;
+	height: 10%;
+	background-color: #444550;
+	display: inline-block;
+	margin-bottom: 0;
+	bottom 0;
+
+}
+
+.footer p{
+
+	margin-top:25px; 
+	margin-left: 25%;
+	color: white;
+	font-size: 18px;
+	float: left;
+	
+
+}
+
+.socials{
+
+		width: 260px;
+		height: 40px;
+		margin-top: 20px;
+		margin-right: 0;
+		float: right;
+}
+
+
+
+
+.mail a:link
+{
+
+	float:left;
+	margin-left: 15px;
+	padding: 3px 0px;
+	border-radius: 70% 70% 70% 70%;
+	border-style: solid;
+	color: black;
+}
+
+.insta a:link
+{
+
+	float:left;	
+	margin-left: 22px;
+	padding: 3px 0px;
+	border-radius: 70% 70% 70% 70%;
+	border-style: solid;
+	color: black;
+}
+
+
+
+.fb a:link
+{
+
+	float:left;
+	margin-left: 10px;
+	border-radius: 50%;
+	color: black;
+
+}
+
+.fb a:visited
+{
+
+	color: black;
+}
+
+.li a:link
+{
+
+	float:left;
+	margin-left: 10px;
+	border-radius: 50%;
+	color: black;
+}
+
+.li a:visited
+{
+
+	color: black;
+}
+
+.insta a:visited
+{
+
+	color: black;
+}
+
+
+.insta a:hover
+{	
+
+	color: #125A98;
+}
+
+
+.fb a:hover
+{
+	color: #125A98;
+
+}
+
+
+.li a:hover
+{
+	color: #125A98;
+}
+
+.mail a:visited
+{
+
+	color: black;
+}
+
+
+.mail a:hover
+{
+	color:  #125A98;
+}
+
+#listaP {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  display: inline-block;
+}
+
+#listaP td, #listaP th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#listaP tr:nth-child(even){background-color: #f2f2f2;}
+
+#listaP tr:hover {background-color: #ddd;}
+
+#listaP th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #3AA6E1;
+  color: white;
+}
+
+th{
+
+
+padding-left: 20px;
+padding-right: 20px;
+
+}
+
+.button{
+
+	background-color: #4090D7; /* Blue */
+	border-radius: 10px;
+	color: white;
+	padding: 10px 24px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	cursor: pointer;
+	text-rendering: auto;
+	display: inline-block;
+
+
+}
+
+.button:active{
+	
+	background-color: #125A98;
+
+
+}
+
+legend{
+
+ text-align:  left;
+ color: #3841f6;
+}
+
+.obrazkoweTlo{
+
+	background: url('/home/violetta/Pulpit/Strona_www/img/owoce.png');
+	opacity 0.1;
+	width:100%;
+	/*background-size: cover;*/
+	margin: 0;
+	padding: 0;
+/*	-webkit-box-shadow: inset 20px 200px 117px -72px rgba(255,255,255,0.72);
+	-moz-box-shadow: inset 20px 200px 117px -72px rgba(255,255,255,0.72);
+	box-shadow: inset 20px 200px 117px -72px rgba(255,255,255,0.72);*/
+
+}
