@@ -55,7 +55,6 @@ header{
 
 }
 
-@media only screen and (max-width: 768px){
 
 #topnav{
 
@@ -201,9 +200,8 @@ header{
 
 	}
 
-}
 
-@media only screen and (max-width: 576px){
+
 
 .rightNav{
 
@@ -213,7 +211,7 @@ header{
 	/*background-color: red; */
 	display: inline-block;
  }
-}
+
 .main{
 
 
@@ -261,7 +259,6 @@ h4{
 	font-weight: 500; 
 }
 		
-@media only screen and (max-width: 576px){
 
 .navAside{
 
@@ -276,7 +273,7 @@ h4{
 	
 }
 
-}
+
 
 
  ul > li{
@@ -458,9 +455,20 @@ padding-right: 15px;
 
 }
 
+
+td{
+
+
+padding-left: 15px;
+padding-right: 15px;
+
+}
+
+
 .button{
 
 	background-color: #4090D7; /* Blue */
+	margin-top: 20px;
 	border-radius: 10px;
 	color: white;
 	padding: 10px 24px;
